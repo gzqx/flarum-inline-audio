@@ -1,3 +1,7 @@
+# WARNING
+This is a dirty fork from a fork from a deleted repo. It currently can be installed and work in Flarum 1.8.9. But I have no idea is there any bug or whether it will keep working in the future.
+
+
 # Inline Audio
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/zerosonesfun/flarum-inline-audio.svg)](https://packagist.org/packages/zerosonesfun/flarum-inline-audio)
