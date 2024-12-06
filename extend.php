@@ -27,7 +27,11 @@ return [
     ->configure(function (Configurator $config) {
         $config->BBCodes->addCustom(
             '[player]{URL}[/player]',
-            '<a href="{URL}">{URL}</a>'
+            '<audio id="audioPlayer" controls style="margin-top: 10px; width: 100%;"></audio>
+            <script>
+                const audioPlayer = document.getElementById("audioPlayer");
+                audioPlayer.src = {URL};
+            </script>'
         );
     })
 ];
