@@ -27,7 +27,7 @@ return [
     ->configure(function (Configurator $config) {
         $config->BBCodes->addCustom(
             '[player]{URL}[/player]',
-            '<audio controls autoplay src="{URL}"></audio>'
+            '<audio controls src="{URL}"></audio>'
         );
     })
 ];
